@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url("jk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+h1{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: yellowgreen;
+    letter-spacing: 2px;
+}
+.pictures button {
+    width: 23%; 
+    padding: 35x;
+    border: none;
+    background: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pictures button img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#resultText{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: purple;
+    font-size: 32px;
+    border-bottom: 2px solid black;
+}
+#usernameDisplay{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: purple;
+
+}
+.pictures{
+    display: block;
+    margin:150px auto;
+    align-items: center;
+    text-align: center;
+}
+footer h2{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: white;
+    letter-spacing: 2px;
+
+}
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+}
+footer h3{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: white;
+}
+footer strong{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: rgb(172, 25, 25);
+    letter-spacing: 2px;
+}

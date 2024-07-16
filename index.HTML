@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors-Home</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+
+<body>
+    <div class="background">
+        <h1>Rock Paper Scissors</h1>
+
+        <div class="pictures">
+            <button onclick="playGame('rock')">
+                <img src="rock.png" alt="Rock">
+            </button>
+            <button onclick="playGame('paper')">
+                <img src="paper.png" alt="Paper">
+            </button>
+            <button onclick="playGame('scissors')">
+                <img src="scissor.png" alt="Scissors">
+            </button>
+        </div>
+        <div id="resultModal"
+            style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); width:300px; height:300px; background-color:white; border:1px solid black; text-align:center; padding:20px; box-shadow:0px 0px 10px rgba(0,0,0,0.5);">
+            <h2 id="resultText">Result</h2>
+            <div class="username-box">
+                <h2 id="usernameDisplay"></h2>
+                <button onclick="closeModal()">Close</button>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Game by-Sujal <strong>Upadhyay</strong> </h2>
+
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
